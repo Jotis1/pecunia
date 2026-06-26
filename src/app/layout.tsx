@@ -30,7 +30,7 @@ export default function RootLayout({
 			)}
 			suppressHydrationWarning
 		>
-			<body className="bg-primary antialiased">
+			<body className="bg-primary text-tertiary antialiased">
 				<RouteProvider>
 					<ThemeProvider>{children}</ThemeProvider>
 				</RouteProvider>
